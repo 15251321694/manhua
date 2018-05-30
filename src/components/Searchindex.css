@@ -1,0 +1,26 @@
+.search-content p{
+    color:rgb(253, 92, 99);
+    border-bottom: 1px solid rgb(245, 245, 245);
+    padding: 10px 0;
+    margin-left: 20px;
+}
+.search-content div{
+    margin-left: 20px;
+}
+.search-content div span{
+    display: inline-block;
+    border: 1px solid rgb(229, 229, 229);
+    padding: 2px 15px;
+    border-radius: 20px;
+    font-size: 11px;
+    color: black;
+}
+.search-content div span:nth-of-type(n+2){
+    margin-left: 8px;
+}
+.search-content div span:nth-of-type(5){
+    margin-left: 0;
+}
+.search-content div span:nth-of-type(n+5){
+    margin-top: 15px;
+}

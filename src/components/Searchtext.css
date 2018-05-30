@@ -1,0 +1,10 @@
+.searchtext p{
+    margin: 5px 0 0 20px;
+    line-height: 38px;
+    border-bottom: 1px solid #f0f0f0;
+    color: gray;
+    font-size: 12px;
+}
+.searchtext{
+    margin: 20px 0;
+}

@@ -1,0 +1,82 @@
+.searchimg{
+    padding: 10px 0;
+}
+.searchimg-content{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 15px;
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f0f0;
+    height: 90px;
+    width: calc(100% - 15px);
+    display: flex;
+    position: relative;
+}
+.searchimg-content-img{
+    width: 105px;
+    height: 74px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+}
+.searchimg-content-img img{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.searchimg-content-p{
+    margin-left: 10px;
+}
+.searchimg-content-p>p{
+    margin: 0;
+}
+.searchimg-content-p .p-title{
+    color: black;
+}
+.searchimg-content-p .p-author{
+    color: gray;
+    font-size: 13px;
+}
+.searchimg-content-tags .tags{
+    display: flex;
+    position: absolute;
+    left: calc(100% - (100% - 115px));
+    bottom: 5px;
+}
+.searchimg-content-tags .tags span{
+    color: rgb(253, 180, 180);
+    font-size: 12px;
+    border: 1px solid rgb(253, 180, 180);
+    padding: 0 5px;
+    border-radius: 20px 10px 10px 20px;
+    background-color: rgb(251, 235, 235);
+}
+.searchimg-content-tags .tags span:nth-of-type(n+2){
+    margin-left: 5px;
+}
+.searchimg-content-tags .tags span::before{
+    content: '▪';
+    margin-right: 5px;
+    font-size: 10px;
+    color: white;
+}
+.searchimg-content-tags .read{
+    display: flex;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
+.searchimg-content-tags .read .read-eyes{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('./img/list_sprite.png');
+    background-size: 1500%;
+    background-position: 7% 17%
+}
+.searchimg-content-tags .read span{
+    color: gray;
+    font-size: 13px;
+    margin-left: 5px;
+}
